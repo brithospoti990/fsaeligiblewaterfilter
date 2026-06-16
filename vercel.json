@@ -1,0 +1,88 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/go/whole-house",
+      "destination": "https://www.springwellwater.com/product/water-filters/whole-house-water-filters/?oid=1&affid=40",
+      "permanent": false
+    },
+    {
+      "source": "/go/filter-softener-combo",
+      "destination": "https://www.springwellwater.com/product/dual-systems/water-filter-salt-softener/?oid=10&affid=40",
+      "permanent": false
+    },
+    {
+      "source": "/go/salt-free-combo",
+      "destination": "https://www.springwellwater.com/product/dual-systems/water-filter-salt-free-softener/?oid=4&affid=40",
+      "permanent": false
+    },
+    {
+      "source": "/go/well-water",
+      "destination": "https://www.springwellwater.com/product/well-water/whole-house-iron-filter/?oid=3&affid=40",
+      "permanent": false
+    },
+    {
+      "source": "/go/lead-cyst",
+      "destination": "https://www.springwellwater.com/product/water-filters/whole-house-lead-cyst-removal-system/?oid=7&affid=40",
+      "permanent": false
+    },
+    {
+      "source": "/go/cartridge",
+      "destination": "https://www.springwellwater.com/product/water-filters/whole-house-cartridge-system/?oid=27&affid=40",
+      "permanent": false
+    },
+    {
+      "source": "/go/2in1-combo",
+      "destination": "https://www.springwellwater.com/product/dual-systems/2-in-1-filter-salt-softener-combo-system/?oid=21&affid=40",
+      "permanent": false
+    },
+    {
+      "source": "/go/uv",
+      "destination": "https://www.springwellwater.com/product/uv-systems/uv-water-purification/?oid=12&affid=40",
+      "permanent": false
+    },
+    {
+      "source": "/go/moen-ro",
+      "destination": "https://www.springwellwater.com/product/under-sink-filtration/moen-reverse-osmosis-water-filtration-system/?oid=34&affid=40",
+      "permanent": false
+    },
+    {
+      "source": "/go/tannin",
+      "destination": "https://www.springwellwater.com/product/water-filters/tannin-softener-system/?oid=20&affid=40",
+      "permanent": false
+    },
+    {
+      "source": "/go/test-kit",
+      "destination": "https://www.springwellwater.com/product/water-testing/water-test-kit/?oid=8&affid=40",
+      "permanent": false
+    },
+    {
+      "source": "/go/pfas",
+      "destination": "https://www.springwellwater.com/product/water-filters/whole-home-pfas-filter/?oid=37&affid=40",
+      "permanent": false
+    },
+    {
+      "source": "/go/truemed-eligible-category",
+      "destination": "https://www.springwellwater.com/product-category/truemed-eligible-water-filters/?affid=40",
+      "permanent": false
+    },
+    {
+      "source": "/go/truemed-how-it-works",
+      "destination": "https://www.springwellwater.com/about/springwell-truemed-hsa-fsa-water-filters/?affid=40",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)\\.(css|js|svg)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    }
+  ]
+}
