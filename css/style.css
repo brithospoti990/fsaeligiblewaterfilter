@@ -392,3 +392,16 @@ table.data .no { color: var(--danger); font-weight: 700; }
 .byline svg,
 .crumbs svg { width: 1em; height: 1em; flex: none; vertical-align: -0.125em; }
 .verdict .seal-check svg { width: 100%; height: 100%; display: block; }
+
+/* ===== Center-aligned content (site-wide) ===== */
+.hero, .prose { text-align: center; }
+/* center flex/grid rows and component groups */
+.crumbs, .meta, .byline, .rating, .proscons, .cards, .smap-stats, .contact-cards { justify-content: center; }
+/* lists read cleaner with inside bullets when centered */
+.prose ul, .prose ol, .toc, .steps { list-style-position: inside; padding-left: 0; }
+/* center block elements that carry their own width */
+.prose table, .prose .data, .math, figure, .hero-figure { margin-left: auto; margin-right: auto; }
+/* keep the byline name/role block left-readable; just center the row */
+.byline .who { text-align: left; }
+/* keep the contact form usable: center the block, left-align the fields */
+.cform { margin-left: auto; margin-right: auto; text-align: left; }
