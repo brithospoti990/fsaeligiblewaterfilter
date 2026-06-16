@@ -383,3 +383,12 @@ table.data .no { color: var(--danger); font-weight: 700; }
 .hero-figure { margin: 1.7rem 0 .4rem; }
 .hero-figure img { width: 100%; height: auto; border-radius: 16px; display: block; border: 1px solid var(--line); }
 .hero-figure figcaption { font-size: .8rem; color: var(--muted); margin-top: .5rem; }
+
+/* ---- Check-icon sizing fix (eyebrow, byline meta, CTA kicker, crumbs) ---- */
+.eyebrow svg,
+.meta svg,
+.cta-box .kicker svg,
+.kicker svg,
+.byline svg,
+.crumbs svg { width: 1em; height: 1em; flex: none; vertical-align: -0.125em; }
+.verdict .seal-check svg { width: 100%; height: 100%; display: block; }
